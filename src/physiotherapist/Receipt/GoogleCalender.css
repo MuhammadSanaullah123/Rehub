@@ -1,0 +1,34 @@
+.fc .fc-button-primary:disabled {
+  background-color: #00b4ff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+  background-color: #00b4ff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  background-color: #00b4ff;
+  text-transform: uppercase;
+  border: none;
+}
+
+.fc .fc-toolbar-title {
+  /* background-color: #00b4ff; */
+  color: #00b4ff;
+}
+
+.fc-h-event .fc-event-title-container {
+  background-color: #00b4ff;
+  text-transform: uppercase;
+  border: none;
+  text-align: center;
+}
+
+.mainContainerGoogleCal {
+  height: 100vh;
+  padding-top: 15px;
+}

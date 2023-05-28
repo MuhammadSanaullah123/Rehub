@@ -1,0 +1,250 @@
+$primary: #00b4ff; //primary color
+$secondary: #2683ff; // secondary color
+.NavbarParentDiv {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  @media (max-width: 500px) {
+    position: sticky;
+    top: 0;
+    transition: 0.2s;
+    z-index: 10;
+  }
+}
+.Navbar {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: white;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 5px 25px rgb(0 0 0 / 25%);
+  box-sizing: border-box;
+
+  @media (min-width: 1400px) {
+    padding: 18px 20px;
+  }
+
+  .css-2dum1v-MuiDrawer-docked .MuiDrawer-paper,
+  .css-bpnhhg .MuiDrawer-paper {
+    background: #ffffff;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 48px 48px 0px;
+    width: 65px;
+    @media (max-width: 960px) {
+      overflow: hidden;
+      width: 50px;
+      height: 50px;
+      margin-top: 20px;
+      position: absolute;
+    }
+    @media (max-width: 960px) {
+      background: transparent;
+      box-shadow: none;
+      border: 0;
+      margin-left: 20px;
+    }
+  }
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    background: #ffffff;
+    box-shadow: 0px 0px 7px rgb(0 0 0 / 25%);
+    border-radius: 0px 48px 48px 0px;
+  }
+  .navbarlogodiv {
+    margin-top: 30px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    @media (max-width: 960px) {
+      /*       width: 100px;
+      height: 100px;
+      justify-content: center;
+      min-height: 100px;
+      margin-top: 0; */
+      display: none;
+    }
+  }
+
+  .navbarlogo1 {
+    width: 250px;
+    height: 90px;
+    @media (max-width: 960px) {
+      display: none;
+    }
+  }
+
+  .navbarlogo2 {
+    height: 45px;
+    @media (max-width: 960px) {
+      display: none;
+    }
+  }
+  .navbarrightarrdiv {
+    display: flex;
+    height: 100px;
+    width: 90px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 960px) {
+      width: 40px;
+      height: 40px;
+      min-height: 50px;
+    }
+
+    @media (min-width: 961px) {
+      display: none;
+    }
+  }
+  .navbarrightarr {
+    color: var(--primary);
+    font-size: 5rem;
+    display: none;
+    @media (max-width: 960px) {
+      display: flex;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .navbarl1 {
+    width: 200px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .navbarp1 {
+    width: 130px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #787878;
+    text-decoration: none;
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      font-size: 20px;
+    }
+  }
+  .navbard1 {
+    display: flex;
+    height: 100%;
+    align-self: center;
+    width: 100%;
+    justify-content: center;
+    // margin-top: 50px;
+    @media (max-height: 650px) {
+      margin-top: 0;
+    }
+  }
+  .navbard2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    height: 200px;
+    @media (max-width: 960px) {
+      display: none;
+    }
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      height: 250px;
+    }
+  }
+  .dashboardlogo {
+    width: 30px;
+    height: 30px;
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      width: 38px;
+      height: 38px;
+      align-self: center;
+    }
+  }
+  .navbard3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .navbard4 {
+    display: flex;
+    width: 85%;
+    height: 43px;
+    border-radius: 35px 15px 15px 35px;
+  }
+  .navbarprofile {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+  }
+  .navbarp2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    align-self: center;
+    color: #626262;
+    margin: 0 auto;
+  }
+  .navbard5 {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .navbarimg1 {
+    width: 23px;
+    height: 23px;
+  }
+  .navbarp3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #626262;
+    margin: 0;
+  }
+  .navbard6 {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 20px;
+    @media (max-width: 500px) {
+      padding-bottom: 15px;
+    }
+  }
+  .navbard7 {
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      width: 80px;
+    }
+  }
+  .navbard7img1 {
+    width: 30px;
+    height: 30px;
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .navbard7img2 {
+    width: 38px;
+    height: 38px;
+    align-self: center;
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  .navbard7adminimg3 {
+    border-radius: 50%;
+    border: 2px solid;
+    width: 45px;
+    height: 45px;
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}

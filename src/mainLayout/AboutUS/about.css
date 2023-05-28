@@ -1,0 +1,19 @@
+.about-main {
+  width: 65%;
+  margin: auto;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+}
+.Bold-text {
+  font-size: 20px;
+  font-weight: 1000;
+  color: #2683ff;
+  font-style: normal;
+}
+.Bold-text1 {
+  font-size: 20px;
+  font-weight: 1000;
+  color: rgb(0, 200, 115);
+  font-style: normal;
+}

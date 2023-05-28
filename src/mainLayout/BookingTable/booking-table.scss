@@ -1,0 +1,10 @@
+@import "../../styles/color";
+
+.booking-item {
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    background-color: var(--color-superlightgrey);
+  }
+}

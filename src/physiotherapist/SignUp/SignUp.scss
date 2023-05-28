@@ -1,0 +1,302 @@
+.mainDiv {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .bigDivS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 528px;
+    // height: 548px;
+    background: #ffffff;
+    @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+      width: 428px;
+      height: 500px;
+    }
+    @media (max-width: 540px) {
+      width: 95%;
+    }
+
+    .slector-input {
+      background-color: red;
+    }
+
+    .circleDiv {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      top: 60px;
+      padding: 30px;
+      margin: 0 auto;
+      border-radius: 50%;
+      box-shadow: 0px -20px 20px rgb(0 0 0 / 8%);
+      background-color: white;
+      z-index: 99;
+
+      .circleDiv2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 108px;
+        height: 108px;
+        border-radius: 50%;
+        z-index: 999;
+        @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+          width: 80px;
+          height: 80px;
+        }
+      }
+    }
+
+    .smallDivS {
+      padding-top: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 528px;
+      height: 384px;
+      background: #ffffff;
+      box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+      z-index: 2;
+      border-radius: 6px;
+      justify-content: space-evenly;
+      padding-bottom: 10px;
+      gap: 3px;
+      @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+        width: 428px;
+        justify-content: space-between;
+      }
+      @media (max-width: 540px) {
+        width: 100%;
+      }
+
+      .input-container {
+        display: flex;
+        width: 426px;
+        height: 58px;
+        background: #ebeaea;
+        position: relative;
+        border-radius: 5px;
+        @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+          width: 350px;
+          height: 43px;
+        }
+        @media (max-width: 540px) {
+          width: 95%;
+        }
+
+        .inputimgback {
+          display: flex;
+          background-color: #00b4ff;
+          align-items: center;
+          justify-content: center;
+          width: 54px;
+          height: 58px;
+          border-radius: 5px 0px 0px 5px;
+          @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+            height: 43px;
+            width: 50px;
+          }
+        }
+
+        .inputimg {
+          width: 38px;
+          height: 38px;
+        }
+
+        .input-field {
+          width: 100%;
+          background: #ebeaea;
+          border: 0px;
+          font-size: 16px;
+          padding-left: 15px;
+        }
+
+        .input-field:focus {
+          outline: none;
+        }
+
+        ::placeholder {
+          font-weight: 400;
+          font-size: 16px;
+          color: #937a7a;
+          //  padding-left: 30px;
+        }
+      }
+
+      .check-container {
+        display: flex;
+        width: 426px;
+
+        justify-content: space-between;
+        @media only screen and (max-width: 1400px) and (min-width: 1000px) {
+          width: 350px;
+          height: 43px;
+        }
+        @media (max-width: 540px) {
+          width: 95%;
+        }
+
+        .form-check-input {
+          height: 14px;
+          width: 14px;
+        }
+
+        .checkpS {
+          font-weight: 300;
+          font-size: 13px;
+          color: #464646;
+          margin-top: 0;
+          margin-left: 8px;
+          display: flex;
+        }
+
+        .checkp2 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 13px;
+          color: #00b4ff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .btn1 {
+    width: 198px;
+    height: 59px;
+    background: #00b4ff;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    box-shadow: 0px 0px 7px;
+    border-radius: 4px;
+    border: 0;
+  }
+
+  .mainDivp1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #473d3d;
+  }
+
+  .mainimgDiv {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+
+    .imgDiv {
+      background: #c54238;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .endimg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
+
+.SignBoxp {
+  width: 139px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.textslots {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.SignBoxb1 {
+  width: 191px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 3px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #00b4ff;
+}
+
+.SignBoxb2 {
+  width: 191px;
+  height: 48px;
+  background: #00b4ff;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.form-select {
+  width: 300px;
+  height: 50px;
+}
+
+.slector-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook-btn {
+  background: none;
+  border: none;
+}
+
+.visblePasswordIcon {
+  font-size: 30px;
+  position: absolute;
+  right: 5px;
+  top: 12px;
+  color: gray;
+  cursor: pointer;
+}
+
+select:required:invalid {
+  color: gray;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: black;
+}
+
+select {
+  padding: 2px 10px;
+  border: 1px solid #979997;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}

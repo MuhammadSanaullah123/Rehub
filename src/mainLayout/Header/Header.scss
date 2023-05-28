@@ -1,0 +1,436 @@
+$primary: #00b4ff; //primary color
+$secondary: #2683ff; // secondary color
+
+.mainHeader {
+  // box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  transition: 0.2s;
+  z-index: 999;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 0 0 15px 15px;
+}
+
+.header-box {
+  margin-left: 20px;
+  gap: 20px;
+}
+
+@media (max-width: 700px) {
+  .header-box {
+    width: 360px !important;
+  }
+}
+
+.Header {
+  background-color: #ffffff !important;
+  height: 96px;
+  justify-content: center;
+  border-radius: 0 0 15px 15px;
+  box-shadow: none !important;
+  @media (max-width: 397px) {
+    height: 120px;
+  }
+
+  .headerlogo {
+    height: 56px;
+  }
+
+  .link1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #545454;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 28px;
+  }
+
+  .link1:visited {
+    text-decoration: none;
+  }
+
+  .bothbtndiv {
+    .headerLogbtn {
+      width: 100px;
+      height: 40px;
+      border: 1px solid var(--primary);
+      border-radius: 13px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      background: #ffffff;
+      color: var(--primary);
+      margin-right: 10px;
+      padding: 6px 10px;
+      text-decoration: none;
+      cursor: pointer;
+      @media (max-width: 397px) {
+        width: 50px;
+        height: 20px;
+        text-align: center;
+      }
+    }
+
+    .headerSignbtn {
+      width: 100px;
+      padding: 6px 10px;
+      text-decoration: none;
+      height: 40px;
+      border: 1px solid var(--primary);
+      border-radius: 13px;
+      background: var(--primary);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+
+      color: #ffffff;
+      @media (max-width: 397px) {
+        margin-top: 10px;
+      }
+      @media (max-width: 480px) {
+        display: none;
+      }
+    }
+
+    @media (max-width: 397px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .css-14bc5je {
+    @media (max-width: 480px) {
+      justify-content: right;
+    }
+  }
+
+  .css-19r6kue-MuiContainer-root {
+    padding: 0 20px 0 20px;
+    @media (min-width: 1536px) {
+      max-width: none !important;
+    }
+  }
+}
+
+#menu-appbar1 {
+  display: flex !important;
+  flex-direction: column !important;
+
+  .link1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #545454;
+    text-decoration: none;
+    line-height: 28px;
+    cursor: pointer;
+  }
+
+  .css-6hp17o-MuiList-root-MuiMenu-list,
+  .css-r8u8y9 {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    justify-content: space-around;
+    padding-left: 10px;
+  }
+}
+
+.css-1eude84 {
+  @media (max-width: 690px) {
+    display: none !important;
+  }
+}
+
+.css-14bc5je {
+  @media (max-width: 600px) {
+    display: flex !important;
+  }
+}
+
+.topHeaderMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topLeftIconMenu {
+  display: flex;
+  align-items: center;
+}
+
+.topImgHeaderRight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.personIconNavPr {
+  width: 30px;
+
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.personIconNav {
+  font-size: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.topMainCardLogPro {
+  z-index: 111;
+  width: 100px;
+  height: 75px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  gap: 9px;
+  position: absolute;
+  left: -50px;
+  top: 20px;
+  padding-left: 10px;
+  box-shadow: 0 0 7px rgb(0 0 0 / 25%);
+}
+
+.topRow1Profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.topImageNavbarHost {
+  position: relative;
+  display: flex;
+  border-radius: 50%;
+}
+
+.topImageNavbarHost1 {
+  position: relative;
+}
+
+.proIconDrop {
+  font-size: 20px;
+  color: var(--primary);
+}
+
+.spTxtDropdown {
+  size: 20px;
+  color: var(--primary);
+}
+
+.progileLinkHost {
+  color: transparent;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.personIconNavPr {
+  width: 30px;
+
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mobileHostNav {
+  display: none !important;
+}
+
+.topHostNav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.txtNavHost {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #545454;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 28px;
+}
+
+.logoNavHost {
+  height: 56px;
+}
+
+.leftPartNavHost {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topHostNav a {
+  text-decoration: none;
+}
+
+.navbard7img3 {
+  width: 70px !important;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+@media (max-width: 991px) {
+  .mobileHostNav {
+    display: block !important;
+  }
+
+  .leftPartNavHost {
+    display: none;
+  }
+  .topHostNav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+}
+
+.personIconNavPr {
+  width: 30px;
+
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.personIconNav {
+  font-size: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.topMainCardLogPro {
+  z-index: 111;
+  width: 100px;
+  height: 75px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  gap: 9px;
+  position: absolute;
+  left: -50px;
+  top: 20px;
+  padding-left: 10px;
+  box-shadow: 0 0 7px rgb(0 0 0 / 25%);
+}
+
+.topRow1Profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.topImageNavbarHost {
+  position: relative;
+  display: flex;
+  border-radius: 50%;
+}
+
+.topImageNavbarHost1 {
+  position: relative;
+}
+
+.proIconDrop {
+  font-size: 20px;
+  color: var(--primary);
+}
+
+.spTxtDropdown {
+  size: 20px;
+  color: var(--primary);
+  font-family: "Inter";
+}
+
+.progileLinkHost {
+  color: transparent;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.personIconNavPr {
+  width: 30px;
+
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mobileHostNav {
+  display: none !important;
+}
+
+.topHostNav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.txtNavHost {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #545454;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 28px;
+}
+
+.logoNavHost {
+  height: 56px;
+}
+
+.leftPartNavHost {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topHostNav a {
+  text-decoration: none;
+}
+
+.navbard7img3 {
+  width: 70px !important;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+@media (max-width: 991px) {
+  .mobileHostNav {
+    display: block !important;
+  }
+
+  .leftPartNavHost {
+    display: none;
+  }
+  .topHostNav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+}

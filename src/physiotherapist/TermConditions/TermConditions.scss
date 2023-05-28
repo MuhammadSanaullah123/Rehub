@@ -1,0 +1,28 @@
+.termDiv {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+
+  .h6tag {
+    color: var(--color-darkmintgreen);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .key-text {
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .ptag {
+    @apply my-4;
+    color: #000000;
+    font-style: normal;
+    font-size: 17px;
+  }
+}

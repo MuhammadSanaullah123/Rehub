@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+  .review-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px !important;
+  }
+}
+
+.past-date {
+  cursor: default !important;
+  background-color: var(--color-darkgray) !important;
+  color: var(--color-white) !important;
+
+  &.individualspacecaltimed2d2active {
+    background-color: var(--primary-inactive) !important;
+  }
+}
